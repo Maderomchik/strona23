@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+}
+#main-page div {
+border: 1px solid black;
+height: 100px;
+}
+#main-page {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/* main - header start */
+.main-header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 30% auto;
+    background-color: gray;
+}
+
+/* main - header end */
+.main-nav {
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* display: grid; */
+   
+}
+.main-nav button {
+    grid-template-rows: auto auto auto;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    width: 15%;
+}
+
+.main-nav ul li:last-child {
+    float: right;
+}
+.main-nav ul {
+    text-align: center;
+}
+
+
+
+
+
+
+
+

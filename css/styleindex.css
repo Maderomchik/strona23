@@ -1,14 +1,17 @@
 body {
     background-color: whitesmoke;
 }
+
 #main-page div {
     border: 1px solid black;
     height: 100px;
 }
+
 #main-page {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 /* main - header start */
 .main-header {
     grid-column-start: 1;
@@ -26,6 +29,7 @@ body {
     display: grid;
 
 }
+
 .main-nav button {
     grid-template-rows: auto auto auto;
 }
@@ -34,24 +38,68 @@ body {
     display: inline-block;
     width: 15%;
 }
+
 .main-nav ul li {
     float: center;
 }
+
 .main-nav ul {
     text-align: center;
 }
+
 .logo {
     text-align: center;
 }
+
 .main-nav ul li {
     border-color: rgb(41, 128, 116);
     border-style: solid;
     border-width: 5px;
     border-block-end-color: blue;
 }
+
 .logo i {
- font-size: 100px;
+    font-size: 100px;
 }
-.main-nav {
+
+.main-img3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    }
+
+.imag1 {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
     
 }
+
+.imag2 {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.image3 {
+    display: block;
+    width: 100px;
+    margin: auto;
+    
+}
+.divimage {
+   /* padding: 20%; */
+    background-color: aquamarine;
+}
+
+.imag1 {
+width: 100px;
+height: 100px;
+-webkit-transition: width 4s, heinght 4s;
+transition: 2s,
+}
+.imag1:hover {
+    width: 300px;
+    height: 300px;

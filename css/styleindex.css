@@ -2,10 +2,10 @@ body {
     background-color: whitesmoke;
 }
 
-#main-page div {
+/* #main-page div {
     border: 1px solid black;
     height: 100px;
-}
+} */
 
 #main-page {
     display: grid;
@@ -62,36 +62,75 @@ body {
     font-size: 100px;
 }
 
+/* ----------------------start foto text ------------------- */
 .main-img3 {
     grid-column-start: 1;
     grid-column-end: 4;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    }
+}
 
 .imag1 {
     display: block;
     width: 100px;
-    margin: 0 auto;
-    
+    /* margin: 0 auto; */
+    float: left;
+    margin: 4px 10px 2px 0px;
+    border: 1px solid #ccc;
+    padding: 6px;
 }
 
 .imag2 {
     display: block;
     width: 100px;
     margin: auto;
+    float: right;
+    margin: 4px 10px 2px 0px;
+    border: 1px solid #ccc;
+    padding: 6px;
+
+}
+
+.imag78 {
+    margin: 4px 10px 2px 0px;
+    border: 1px solid #ccc;
+    padding: 6px;
+    float: left;
+
 }
 
 .image3 {
     display: block;
     width: 100px;
     margin: auto;
-    
+    margin: 4px 10px 2px 0px;
+    border: 1px solid #ccc;
+    padding: 6px;
+    float: left;
 }
-.divimage {
-   /* padding: 20%; */
-    background-color: aquamarine;
+
+.text1 {
+    text-align: justify;
+}
+
+.text2 {
+    text-align: justify;
+}
+
+.text3 {
+    text-align: justify;
+}
+
+.lorem {
+    text-align: center;
+}
+
+/* ----------------the end foto. tekst --------------- */
+
+/* .divimage {
+   padding: 20%; */
+/* background-color: aquamarine;
 }
 
 .imag1 {
@@ -103,3 +142,42 @@ transition: 2s,
 .imag1:hover {
     width: 300px;
     height: 300px;
+} */
+
+/* -----------------start icon --------------------------------- */
+
+.fas {
+    font-size: 100px;
+    -webkit-transition: width 5s, height 5s, -webkit-transform 5s;
+    transition: width 5s, height 5s, transform 5s;
+}
+
+.fas:hover {
+    animation: icon 4s;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+}
+
+@keyframes icon {
+    form {
+        color: tomato
+    }
+    to {
+        color: rgb(0, 255, 98);
+    }
+}
+
+.fab  {
+
+    font-size: 100px;
+}
+.fab:hover {
+    animation: icon 4s;
+} 
+
+/* @keyframes icon {
+    form {
+        color: chartreuse;
+    }
+} */

@@ -181,3 +181,33 @@ transition: 2s,
         color: chartreuse;
     }
 } */
+
+.main-icon {
+    text-align: right;
+    padding: 15%;
+}
+
+.main-img1AndDesc {
+    text-align: center;
+    padding: 15%;
+    }
+
+.main-footer {
+    text-align: center;
+    padding: 10%;
+}
+
+.main-footer {
+    background-color: rgb(155, 155, 155);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.tel {
+    font-size: 40px;
+        }
+.gmail {
+    font-size: 40px;
+}

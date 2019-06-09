@@ -211,3 +211,36 @@ transition: 2s,
 .gmail {
     font-size: 40px;
 }
+
+/* @media all and (min-width: 768px) and (max-width: 991) {
+.main-img3 {
+        display: grid;
+        grid-column: 1/4;
+    }
+}
+@media all and (mind-width: 992px) {
+    .main-img3 {
+        grid-template-columns: auto;
+    }
+} */
+
+
+
+@media (min-width:352px) {
+    .main-img3{
+        grid-column: 1/4;
+        }
+@media (min-width:768px) {
+    .main-img3{
+        grid-column: 1/4;
+}
+@media (min-width:992px) {
+    .main-img3{
+        grid-column: 1/4;
+}
+@media (min-width:1200px) {
+.main-img3 {
+    display: none;
+    grid-template-columns: auto;
+}
+}
